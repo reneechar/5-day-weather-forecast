@@ -1,10 +1,11 @@
 #title {
-	background-color: red;
+/*	background-color: red;
+*/	margin: 10px;
 }
 
 #input {
-	background-color: yellow;
-	display: flex;
+/*	background-color: yellow;
+*/	display: flex;
 	flex-flow: column wrap;
 	width: 400px;
 	margin: 20px;
@@ -12,8 +13,10 @@
 }
 
 #container {
-	background-color: blue;
-	margin: 20px;
+/*	background-color: blue;
+*/	margin: 20px;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 textarea {
@@ -33,3 +36,15 @@ h4 {
 	margin: 10px;	
 }
 
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+.day {
+	flex: 0 0 20%;
+}
+
+h3 {
+	flex: 0 0 100%;
+}
